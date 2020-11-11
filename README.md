@@ -51,6 +51,11 @@ pip install -r requirements.txt
 
 ## Discussion
 
+### Cost
+
+Azure prices 
+
+### Output Formatting 
 By default. Batch transcription diarization outputs a complex [transcription diarization result](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/batch-transcription#batch-transcription-result)
 
 In future versions of this sample we will try to process the diarized result into sentence level fragments based on the speaker object.
