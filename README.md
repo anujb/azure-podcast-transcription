@@ -53,8 +53,11 @@ pip install -r requirements.txt
 
 ### Cost
 
-Azure prices 
+Azure Speech prices [Conversation Transcription](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speech-services/) at $2.10/hour of audio. For a roughly 1 hour single channel audio file we were able to achieve transcription and diarization for roughly $0.57 USD including storage and networking costs.
 
+<p align="center">
+<img src="cost.png"  />
+</p>
 ### Output Formatting 
 By default. Batch transcription diarization outputs a complex [transcription diarization result](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/batch-transcription#batch-transcription-result)
 
